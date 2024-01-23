@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,15 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson_2_01" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rv8-cP-Yb2">
-                                <rect key="frame" x="16" y="59" width="361" height="361"/>
+                                <rect key="frame" x="16" y="64" width="382" height="380.5"/>
                                 <color key="backgroundColor" systemColor="systemBrownColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IsU-Vz-UzW">
-                                <rect key="frame" x="16" y="457" width="361" height="361"/>
+                                <rect key="frame" x="16" y="481.5" width="382" height="380.5"/>
                                 <color key="backgroundColor" systemColor="systemTealColor"/>
                             </view>
                         </subviews>
@@ -29,7 +29,7 @@
                         <color key="backgroundColor" red="0.094876476919999994" green="0.34193037069999999" blue="0.2208265358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="IsU-Vz-UzW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5sE-uP-lZf"/>
-                            <constraint firstItem="rv8-cP-Yb2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="9Y6-vN-VHk"/>
+                            <constraint firstItem="rv8-cP-Yb2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="9Y6-vN-VHk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IsU-Vz-UzW" secondAttribute="trailing" constant="16" id="GDR-BY-YMv"/>
                             <constraint firstItem="IsU-Vz-UzW" firstAttribute="height" secondItem="rv8-cP-Yb2" secondAttribute="height" id="KKt-JB-U6T"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rv8-cP-Yb2" secondAttribute="trailing" constant="16" id="LI7-tR-dOo"/>
